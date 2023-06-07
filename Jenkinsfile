@@ -8,7 +8,7 @@ pipeline{
     }
     stage('Create Docker image'){
       steps{
-        sh 'docker build -t nabghour/Main:latest .'
+        sh 'docker build -t nabghour/main:latest .'
            }
     }
   }
