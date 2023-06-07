@@ -11,5 +11,5 @@ pipeline{
         sh 'docker build -t nabghour/Main:latest .'
            }
     }
- 
+  }
   }
