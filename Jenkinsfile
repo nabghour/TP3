@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('git clone'){
       steps{
-       sh 'git https://github.com/nabghour/TP3.git'  
+           git 'https://github.com/nabghour/TP3.git'  
       }
     }
     stage('Create Docker image'){
