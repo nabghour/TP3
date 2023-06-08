@@ -13,7 +13,7 @@ pipeline{
     }
     stage('Create Docker Container'){
       steps{
-        sh 'docker run -d --name essai  nabghour/essai:latest'
+        sh 'docker run  --name essai  nabghour/essai:latest'
            }
     }
   }
