@@ -8,12 +8,12 @@ pipeline{
     }
     stage('Create Docker image'){
       steps{
-        sh 'docker build -t nabghour/Essai:latest .'
+        sh 'docker build -t nabghour/essai:latest .'
            }
     }
     stage('Create Docker Container'){
       steps{
-        sh 'docker run -d -n test  nabghour/Essai:latest .'
+        sh 'docker run -d -n test  nabghour/essai:latest .'
            }
     }
   }
